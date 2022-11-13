@@ -1,0 +1,30 @@
+body {
+  font-family: sans-serif;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  cursor: pointer;
+  margin-left: 45px;
+}
+
+.line {
+  height: 4px;
+  width: 30px;
+  background-color: black;
+  margin-top: 5px;
+  transition: 0.4s;
+}
+
+/*.container :first-child {
+  margin-top: 20px;
+}
+
+.container:hover :first-child {
+  transform: rotate(70deg) translateX(30%);
+}
+
+.container:hover :last-child {
+  transform: rotate(-70deg) translateX(30%);
+}*/
